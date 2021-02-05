@@ -1,4 +1,4 @@
-public class PCL4106056012 extends PCL {
+public class PCL_ex extends PCL {
 	public boolean checkPCL(int[][] array) {
 		double [] slope = new double[array.length-1];
 		int count;
@@ -52,7 +52,7 @@ public class PCL4106056012 extends PCL {
   
 		public static void main(String[] args){
 			/*long startTime = System.currentTimeMillis();
-			PCL41060560123 test = new PCL41060560123();
+			PCL_ex test = new PCL_ex();
 			int[][] A={{20091142,37662805},{-39149449,-59782383},{-99264459,-74860209},{5,5},{-88348788,-79715802},{12,12},{-96494930,-83479800},{4,255},{77,3},{88769935,42778540},{1,2},{6,59},{37,24},{-79049070,-2286184},{73983425,77794414},{14353195,90191991},{-86307356,-29132177},{16271815,17627275},{90517107,-35522175},{-54903624,-29619642}};
 			boolean ans=test.checkPCL(A);
 			System.out.println(ans);
