@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class ThreeSum4106056012 extends ThreeSum {
+public class TS extends ThreeSum {
 	public int T_sum(int[] arr) {
 		Arrays.sort(arr);
 		int sum=0,count=0;
@@ -16,14 +16,15 @@ public class ThreeSum4106056012 extends ThreeSum {
 	}
 
 	public static void main(String[] args) {
-		ThreeSum4106056012 test = new ThreeSum4106056012();
+		/*
+		TS test = new TS();
 		int[] A = {1,0,3,-3,6,-7} ;
 		int[] B = {1,2,-3} ;
 		int i = test.T_sum(A);
 		System.out.println(i);
 		i = test.T_sum(B);
 		System.out.println(i);
-		
+		*/
 	}
 
 
