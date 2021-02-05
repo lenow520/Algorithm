@@ -14,8 +14,7 @@ public class sl extends slash{
 		if(arr[mid]<arr[mid-1]) {index=mid-1;}
 		else {
 		if(a>b) //slash at right half
-		{search(arr, mid+1 ,high);
-		}
+		{search(arr, mid+1 ,high);}
 		else //slash at left half
 		{search(arr,low ,mid);}
 		}
